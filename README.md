@@ -48,14 +48,24 @@ The project demonstrates Object-Oriented Programming (OOP), STL containers, prio
      priority_queue
      
 -> Concepts:
+
     Classes and Objects
+    
     Structures
+    
     Enumerations
+
     Functions
+    
     Lambda expressions
+    
     Sorting
+    
     Searching
+    
     Pointers
+    
     Input validation
+    
     Date and time handling
     
