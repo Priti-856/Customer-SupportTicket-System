@@ -160,7 +160,7 @@ public:
         cout << "\nTicket status updated successfully.\n";
     }
 
-    // Finds the most important unresolved ticket and marks it as IN_PROGRESS.
+    // Finds the most important unresolved ticket and marks it as IN_PROGRESS
     // priority_queue is rebuilt from the current tickets so the latest statuses are considered.
     void processNextTicket() {
         priority_queue<Ticket*, vector<Ticket*>, TicketCompare> pq;
@@ -203,7 +203,7 @@ public:
                 found = true;
             }
         }
-
+        //other condition
         if (!found)
             cout << "\nNo tickets found for customer: " << customerName << '\n';
     }
